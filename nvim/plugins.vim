@@ -16,4 +16,6 @@ call plug#begin(stdpath('data') . '/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+	Plug 'luochen1990/rainbow'
+  Plug 'alvan/vim-closetag'
 call plug#end()

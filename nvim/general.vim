@@ -38,3 +38,5 @@ set noshowmode
 
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
