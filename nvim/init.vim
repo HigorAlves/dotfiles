@@ -12,3 +12,4 @@ source $HOME/.config/nvim/ranger.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/whichkey.vim
+source $HOME/.config/nvim/closetag.vim
