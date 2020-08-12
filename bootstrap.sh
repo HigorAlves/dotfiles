@@ -1,26 +1,28 @@
 #!/usr/bin/env bash
 
-echo "###########################"
-echo "Setting up this Macbook ..."
-echo "###########################"
+echo "👷 Setting up this Macbook ..."
 
 echo
-echo "> Tell me your full name:"
+echo "🤖 Tell me your full name:"
 read fullname
 
 echo
-echo "> Tell me your email:"
+echo "🤖 Tell me your email:"
 read email
 
 echo
-echo "> Checking if exists software updates"
+echo "🤖 Insert your computer name:"
+read computername
+
+echo
+echo "🤖 Checking if exists software updates"
 sudo softwareupdate -i -a
 
 echo
-echo "> Installing command-line-tools"
+echo "🤖 Installing command-line-tools"
 xcode-select --install
 
-sudo scutil --set ComputerName "$fullname's Macbook"
+sudo scutil --set ComputerName "$computename"
 sudo scutil --set HostName "$fullname's Macbook"
 
 echo
