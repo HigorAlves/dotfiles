@@ -11,13 +11,12 @@ call plug#begin(stdpath('data') . '/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'alvan/vim-closetag'
-
-"	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'sheerun/vim-polyglot'
+ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-"	Plug 'sheerun/vim-polyglot'
 "	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 "	Plug 'junegunn/fzf.vim'
 "	Plug 'tpope/vim-surround'
-" Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 call plug#end()
