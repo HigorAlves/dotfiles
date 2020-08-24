@@ -1,9 +1,12 @@
 colorscheme dracula
+
 syntax on
 filetype plugin indent on
 set encoding=UTF-8
 set path+=$(pwd)/**
-set number relativenumber
+set number
+set relativenumber
+set hidden
 
 set expandtab
 set tabstop=2
@@ -30,6 +33,7 @@ set viminfo?
 set viminfo='100,<100,s20,h
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 set splitbelow splitright 
+
 " Always show tabs
 set showtabline=2
 
