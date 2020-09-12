@@ -17,6 +17,12 @@ nnoremap <silent> <leader>ga :Git add .<CR>
 nnoremap <silent> <leader>gc :Git commit<CR>
 nnoremap <silent> <leader>gp :Git push<CR>
 
+nmap <silent> <space>e :CocCommand explorer<CR>
+nmap <silent> <space>f :CocCommand explorer --position floating<CR>
+
+let g:which_key_map.e = 'Open Explorer'
+let g:which_key_map.f = 'Open Explorer floating'
+
 let g:which_key_map.s = {
   \ 'name' : 'Screen',
   \ 'v': 'Split screen Verticaly', 

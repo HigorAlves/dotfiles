@@ -182,6 +182,7 @@ nmap <silent> <space>e :CocCommand explorer<CR>
 nmap <silent> <space>f :CocCommand explorer --position floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
+
 " Remap for do codeAction of selected region
 function! s:cocActionsOpenFromSelected(type) abort
   execute 'CocCommand actions.open ' . a:type
